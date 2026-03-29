@@ -23,6 +23,10 @@ jobs:
           java-version: ${{ matrix.java }}
           distribution: temurin
           cache: sbt
+      - name: Install sbt
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y sbt
       - name: Compile
         run: sbt clean compile
       - name: Run tests
@@ -42,6 +46,10 @@ jobs:
           java-version: 17
           distribution: temurin
           cache: sbt
+      - name: Install sbt
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y sbt
       - name: Run tests with coverage
         run: sbt test
       - name: Upload coverage
@@ -63,6 +71,10 @@ jobs:
           java-version: 17
           distribution: temurin
           cache: sbt
+      - name: Install sbt
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y sbt
       - name: Import GPG key
         uses: crazy-max/ghaction-import-gpg@v6
         with:
