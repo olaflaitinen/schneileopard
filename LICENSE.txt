@@ -1,0 +1,133 @@
+EUROPEAN UNION PUBLIC LICENCE v. 1.2
+EUPL(C) 2007 - 2016, European Commission
+
+This European Union Public Licence (the "EUPL") applies to the Work (as defined
+below) which is provided under the terms of this Licence. Any use of the Work,
+other than as authorised under this Licence is prohibited (to the extent such
+use is covered by a right of the copyright holder of the Work).
+
+The Work is provided under the terms of this Licence when the Licensor (as
+defined below) has placed the following notice immediately following the
+copyright notice for the Work:
+
+Licensed under the EUPL
+
+or has expressed by any other means his willingness to license under the EUPL.
+
+Full text of EUPL 1.2 is available at:
+https://joinup.ec.europa.eu/collection/eupl/eupl-text-11-12
+
+Definitions
+
+For the purposes of this Licence, the following terms and conditions apply.
+
+'Licence': this Licence.
+
+'Original Work': the work or software distributed or communicated by the
+Licensor under this Licence, available as source code and also as any related
+documentation.
+
+'Derivative Works': any work or software that could be created by You, based
+upon the Original Work or modifications thereof. This Licence does not define
+the degree of modification or dependence on the Original Work required to
+qualify a work as a Derivative Work; this shall be determined by copyright law
+applicable in the country mentioned in Article 15.
+
+'The Work': the Original Work or any Derivative Works.
+
+'You': an individual or a legal entity exercising rights under this Licence.
+
+'Licensor': the natural or legal person that distributes or communicates the
+Work under this Licence.
+
+'Contributor': any natural or legal person who modifies the Work under the
+Licence, or otherwise contributes to the creation of a Derivative Work.
+
+Scope of the Licence
+
+The Licensor hereby grants You a world-wide, royalty-free, non-exclusive,
+sublicensable licence to:
+
+do any act covered by copyright relating to the Work, for the whole duration of
+the copyright vesting in the Work;
+
+sublicense rights in the Work or Derivative Works, subject to the restrictions
+in this Licence.
+
+The licence is granted for the term covered by the copyright of the Work.
+
+Grant of Copyright Licence
+
+The Licensor hereby grants You a world-wide, royalty-free, non-exclusive,
+sublicensable licence, limited to the duration of the copyright vesting in the
+Work, to do the acts covered by copyright in the Work (including source code and
+compiled form).
+
+The exercise of the rights granted is subject to the restrictions in this
+Licence.
+
+Source Code
+
+The Licensor may provide the Work either in its source code form, or as compiled
+code. If the Work is provided as compiled code, the Licensor must additionally
+provide a machine-readable copy of the source code of the Work along with each
+copy of the Work that the Licensor distributes or indicates a repository where
+the source code will be easily and freely accessible for as long as the Licensor
+continues to distribute or communicate the Work.
+
+Limitations
+
+Nothing in this Licence is intended to deprive the Licensee of the benefits from
+any exception or limitation to the exclusive rights recognized by copyright law.
+
+Moral rights
+
+This Licence does not require compliance with moral rights, which may be owed to
+You or others under the law applicable in the country You are in when exercising
+Your rights under this Licence.
+
+Rights of others
+
+You shall not infringe any intellectual or industrial property rights of any
+third parties when exercising the rights granted under this Licence.
+
+Obligations
+
+The grant of the rights mentioned above is subject to the following restrictions
+and obligations:
+
+Trademark rights: This Licence does not grant permission to use the trade names,
+trademarks, service marks, or names of the Licensor, except as required for
+reasonable and customary use in describing the origin of the Work or reproducing
+the content of the NOTICE file.
+
+Copyleft: Any Derivative Works that You create shall be licensed under an
+identical Licence or a later version of it, unless the Derivative Work is
+licensed under any different licence terms which do not contradict the main
+aims and freedoms targeted by this Licence.
+
+In particular, the Derivative Work is required to reserve the copyright notices
+and references to this Licence in the NOTICE file.
+
+Disclaimer of Warranty
+
+The Work is provided on an "as is" basis, without warranties of any kind,
+including but not limited to any warranties that it is error free, fit for a
+particular purpose, non-infringing, merchantable, or that any defects will be
+corrected.
+
+Limitation of Liability
+
+Except where required by applicable law, in no event shall any Licensor be liable
+for personal injury, or any incidental, special, indirect or consequential damages
+of any character arising as a result of this Licence or the use of the Work,
+including exemplary damages, lost profits, revenue or data, or economic loss.
+
+Severability
+
+Should one or more provisions of this Licence be found to be invalid or
+unenforceable under applicable law, the validity or enforceability of the
+remaining provisions shall not be affected.
+
+The complete text of the EUPL v.1.2 is available at:
+https://joinup.ec.europa.eu/collection/eupl/eupl-text-11-12

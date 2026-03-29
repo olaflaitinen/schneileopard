@@ -1,0 +1,51 @@
+# sbt
+target/
+project/target/
+project/project/
+dist/
+.bsp/
+
+# Scala IDE
+.scala_dependencies
+.classpath
+.project
+.settings/
+bin/
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+.metals/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+.nfs*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Build artifacts
+*.jar
+*.zip
+*.tar.gz
+
+# Runtime
+.env
+.env.local
+
+# Misc
+*.swp
+*.swo
+*~
+.#*

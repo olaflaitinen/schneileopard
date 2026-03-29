@@ -1,0 +1,47 @@
+version: 2
+
+updates:
+  # Enable version updates for Maven dependencies
+  - package-ecosystem: "maven"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "03:00"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "olaflaitinen"
+    allow:
+      - dependency-type: "direct"
+      - dependency-type: "indirect"
+
+  # Enable version updates for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "04:00"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "olaflaitinen"
+
+  # Enable version updates for pip (if any Python scripts)
+  - package-ecosystem: "pip"
+    directory: "/.github"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+# Commit message configuration
+commit-message:
+  prefix: "build"
+  prefix-scope: "deps"
+  include: "scope"
+
+# Pull request configuration
+pull-request-branch-name:
+  separator: "/"
+
+# Versioning strategy
+versioning-strategy: "increase"

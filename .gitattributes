@@ -1,0 +1,36 @@
+# Auto detect text files and normalize line endings to LF
+* text=auto
+
+# Scala files
+*.scala text eol=lf diff=scala linguist-language=Scala
+
+# Java files
+*.java text eol=lf diff=java
+
+# Documentation
+*.md text eol=lf diff=markdown
+*.txt text eol=lf
+
+# Configuration files
+*.sbt text eol=lf diff=java
+*.properties text eol=lf
+*.xml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+.editorconfig text eol=lf
+.gitignore text eol=lf
+.scalafmt.conf text eol=lf
+
+# Binary files
+*.jar binary
+*.class binary
+*.png binary
+*.jpg binary
+*.gif binary
+*.pdf binary
+
+# Windows files
+*.bat text eol=crlf
+*.cmd text eol=crlf

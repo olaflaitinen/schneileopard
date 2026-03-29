@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: "Schnéileopard"
+message: "If you use this software in academic research, please cite it as follows."
+type: software
+authors:
+  - family-names: "Laitinen-Fredriksson Lundstrom-Imanov"
+    given-names: "Gustav Olaf Yunus"
+    affiliation: "Department of Life Sciences and Medicine, University of Luxembourg"
+    orcid: "https://orcid.org/0009-0006-5184-0810"
+    email: "olaf.laitinen@uni.lu"
+version: 0.1.0
+date-released: 2026-03-29
+url: "https://github.com/olaflaitinen/schneileopard"
+repository-code: "https://github.com/olaflaitinen/schneileopard"
+repository-artifact: "https://central.sonatype.com/artifact/io.github.olaflaitinen/schneileopard-core"
+keywords:
+  - "Scala"
+  - "bioinformatics"
+  - "systems biology"
+  - "molecular biomedicine"
+  - "omics"
+  - "type-safe"
+  - "machine learning"
+  - "explainability"
+license: EUPL-1.2
+abstract: "A type-safe Scala toolkit for molecular entities, omics-aware data structures, cohort modeling, pathway-aware analytics, and explainable AI workflows in systems biomedicine."
+references:
+  - type: book
+    authors:
+      - family-names: "Laitinen-Fredriksson Lundstrom-Imanov"
+        given-names: "Gustav Olaf Yunus"
+    title: "Systems and Molecular Biomedicine"
+    year: 2025

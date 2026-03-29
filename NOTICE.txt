@@ -1,0 +1,51 @@
+NOTICE
+
+Schnéileopard
+Copyright (c) 2026 Gustav Olaf Yunus Laitinen-Fredriksson Lundstrom-Imanov
+
+Licensed under the European Union Public Licence (EUPL), Version 1.2 only.
+
+This software includes components and patterns derived from or inspired by:
+
+1. Scala Standard Library
+   Licensed under the Scala License (BSD-style)
+
+2. Scala ecosystem libraries:
+   - org.scalatest:scalatest (Apache License 2.0)
+   - org.scalacheck:scalacheck (BSD License)
+   - com.github.tototoshi:scala-csv (Apache License 2.0)
+
+3. Build infrastructure:
+   - sbt (Apache License 2.0)
+   - Scalafmt (Apache License 2.0)
+   - JMH (GPLv2 with Classpath exception)
+
+For full details, see LICENSE.txt and individual dependency licenses.
+
+THIRD-PARTY ATTRIBUTIONS
+
+The design of this library draws inspiration from established patterns in:
+
+1. Functional programming libraries in Scala and Haskell
+2. Bioinformatics tools and workflows (particularly R/Bioconductor ecosystem patterns)
+3. Type-driven domain modeling practices
+4. Academic software engineering best practices
+
+No code or designs have been directly copied. All implementations are original work
+specific to the biomedical domain and Scala ecosystem needs.
+
+RESEARCH CONTEXT
+
+The Schnéileopard library was developed as part of research in Systems and Molecular
+Biomedicine at the Department of Life Sciences and Medicine, University of Luxembourg.
+
+Research field: Systems and Molecular Biomedicine
+Institution: University of Luxembourg
+Department: Department of Life Sciences and Medicine
+Contact: olaf.laitinen@uni.lu
+
+DISCLAIMER
+
+This software is provided for research and educational purposes. Users are responsible
+for ensuring compliance with applicable laws and regulations in their jurisdictions,
+especially regarding the handling of biomedical or health data.
