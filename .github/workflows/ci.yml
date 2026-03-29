@@ -23,14 +23,7 @@ jobs:
           java-version: ${{ matrix.java }}
           distribution: temurin
           cache: sbt
-      - name: Install sbt
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y apt-transport-https curl gnupg2 lsb-release ca-certificates
-          echo "deb https://repo.scala-sbt.org/scalasbt/debian all main" | sudo tee /etc/apt/sources.list.d/sbt.list
-          curl -sL "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2EE0EA64E40A89B84ECB3F05FC7B2176C619AEBC" | sudo apt-key add
-          sudo apt-get update
-          sudo apt-get install -y sbt
+      - uses: sbt/setup-sbt@v1
       - name: Compile
         run: sbt clean compile
       - name: Run tests
@@ -50,14 +43,7 @@ jobs:
           java-version: 17
           distribution: temurin
           cache: sbt
-      - name: Install sbt
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y apt-transport-https curl gnupg2 lsb-release ca-certificates
-          echo "deb https://repo.scala-sbt.org/scalasbt/debian all main" | sudo tee /etc/apt/sources.list.d/sbt.list
-          curl -sL "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2EE0EA64E40A89B84ECB3F05FC7B2176C619AEBC" | sudo apt-key add
-          sudo apt-get update
-          sudo apt-get install -y sbt
+      - uses: sbt/setup-sbt@v1
       - name: Run tests with coverage
         run: sbt test
       - name: Upload coverage
@@ -79,14 +65,7 @@ jobs:
           java-version: 17
           distribution: temurin
           cache: sbt
-      - name: Install sbt
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y apt-transport-https curl gnupg2 lsb-release ca-certificates
-          echo "deb https://repo.scala-sbt.org/scalasbt/debian all main" | sudo tee /etc/apt/sources.list.d/sbt.list
-          curl -sL "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2EE0EA64E40A89B84ECB3F05FC7B2176C619AEBC" | sudo apt-key add
-          sudo apt-get update
-          sudo apt-get install -y sbt
+      - uses: sbt/setup-sbt@v1
       - name: Import GPG key
         uses: crazy-max/ghaction-import-gpg@v6
         with:
