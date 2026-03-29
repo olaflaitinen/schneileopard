@@ -6,7 +6,7 @@ ThisBuild / scalaVersion := "3.6.1"
 ThisBuild / crossScalaVersions := Seq("3.6.1")
 
 ThisBuild / versionScheme := Some("semver-spec")
-ThisBuild / version := "0.1.0-SNAPSHOT"
+ThisBuild / version := "0.1.0"
 
 ThisBuild / homepage := Some(url("https://github.com/olaflaitinen/schneileopard"))
 ThisBuild / scmInfo := Some(
